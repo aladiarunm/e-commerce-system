@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShopIt - Your Online Store</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+  <header class="main-header">
+    <div class="container">
+      <div class="logo">
+        <a href="#" onclick="navigateTo('home')"><h1>ShopIt</h1></a>
+      </div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#" onclick="navigateTo('home')">Home</a></li>
+          <li><a href="#" onclick="navigateTo('products')">Products</a></li>
+          <li><a href="#" onclick="navigateTo('about')">About</a></li>
+          <li><a href="#" onclick="navigateTo('contact')">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="cart-icon">
+        <a href="#" onclick="navigateTo('cart')"><i class="fas fa-shopping-cart"></i> <span id="cart-count">0</span></a>
+      </div>
+    </div>
+  </header>
+  
+  <main id="app" class="container">
+    <!-- Content will be loaded here -->
+  </main>
+  
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>ShopIt</h3>
+          <p>Your one-stop shop for electronics and accessories.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#" onclick="navigateTo('home')">Home</a></li>
+            <li><a href="#" onclick="navigateTo('products')">Products</a></li>
+            <li><a href="#" onclick="navigateTo('about')">About</a></li>
+            <li><a href="#" onclick="navigateTo('contact')">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contact Us</h3>
+          <p>Email: info@shopeasy.com</p>
+          <p>Phone: (123) 456-7890</p>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2025 ShopEasy. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="/js/script.js"></script>
+</body>
+</html>
